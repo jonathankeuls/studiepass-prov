@@ -13,7 +13,7 @@ user1.firstName = 'Kajsa'
 console.log(user1.firstName + ' ' + user1.lastName)
 
 // 4. Skapa en till användare user2 med samma properties 
-user2 = {
+const user2 = {
     firstName: 'Kalle',
     lastName: 'Anka'
 }
