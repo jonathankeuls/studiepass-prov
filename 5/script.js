@@ -1,7 +1,8 @@
 function lastElement(arr) {
-    return arr.length - 1 
+    const lastIndex = arr.length - 1 
+    return arr[lastIndex]
 }
 
-fruits = ['Apple', 'Orange', 'Pineapple', 'Watermelon']
+const fruits = ['Apple', 'Orange', 'Pineapple', 'Watermelon', 'Lemon']
 
 console.log(lastElement(fruits))
